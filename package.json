@@ -1,0 +1,29 @@
+{
+  "name": "ember-stylus",
+  "version": "1.0.0",
+  "description": "Use broccoli-stylus-single to preprocess your ember-cli app's files, with support for sourceMaps and include paths",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ember-addon",
+    "stylus"
+  ],
+  "author": "@ahoyahoy",
+  "license": "MIT",
+  "dependencies": {
+    "broccoli-merge-trees": "^1.1.0",
+    "broccoli-stylus-single": "^1.0.0",
+    "ember-cli-version-checker": "^1.0.2",
+    "merge": "^1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/axiory/ember-stylus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/axiory/ember-stylus/issues"
+  },
+  "homepage": "https://github.com/axiory/ember-stylus"
+}
