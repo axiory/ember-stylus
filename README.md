@@ -85,7 +85,7 @@ Import some deps into your app.scss:
 
 ## Addon Usage
 
-To compile SASS within an ember-cli addon, there are a few additional steps:
+To compile Stylus within an ember-cli addon, there are a few additional steps:
 
 1. Include your styles in `addon/styles/addon.styl`.
 
