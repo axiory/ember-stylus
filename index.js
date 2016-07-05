@@ -6,7 +6,7 @@ var merge = require('merge');
 var fs = require('fs');
 
 function StylusPlugin(optionsFn) {
-  this.name = 'ember-cli-stylus';
+  this.name = 'ember-stylus';
   this.optionsFn = optionsFn;
   this.ext = ['styl'];
 }
@@ -30,7 +30,7 @@ StylusPlugin.prototype.toTree = function(tree, inputPath, outputPath, inputOptio
 };
 
 module.exports = {
-  name:  'ember-cli-stylus',
+  name: 'ember-stylus',
 
   shouldSetupRegistryInIncluded: function() {
     return !checker.isAbove(this, '0.2.0');
