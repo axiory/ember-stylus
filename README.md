@@ -56,12 +56,12 @@ var app = new EmberApp({
 
 ## Example
 
-The following example assumes your bower packages are installed into `bower_components/`.
+The following example assumes your bower packages are installed into `node_modules/`.
 
-Install some SASS:
+Install some Stylus:
 
 ```shell
-bower install --save foundation
+npm install --save-dev kouto-swiss
 ```
 
 Specify some include paths in your `ember-cli-build.js`:
